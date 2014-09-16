@@ -9,3 +9,7 @@ var letterCapitalize = function(str) {
 	console.log(Arr2.join(' '));
 }
 
+var wordCount = function(str) {
+	var Arr = str.split(' ');
+	console.log(Arr.length);
+}
